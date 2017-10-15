@@ -80,20 +80,34 @@ section {
     padding: 10px;
 }
 
-#column-left {
-    float: left ;
-    width: 48% ;
+@media only screen and (max-width: 767px) {
+column-left {
+    width: 100%;
+    float: left;
+
+}
+
+.column-right {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}   
+}
+
+@media only screen and (min-width: 768px) {
+.column-left {
+    float: left;
+    width: 48%;
     margin: auto;
-    
 }
 
-#column-right {
-    float: right ;
-    width: 48% ;
-    margin: auto;  
+.column-right {
+    float: right;
+    width: 48%;
+    margin: auto;
 }
 
-
+}
     hr { 
     color: #f4f5f6;
     display: block;
