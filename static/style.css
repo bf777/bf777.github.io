@@ -1,14 +1,42 @@
 body {
-  display: block;
+    display: block;
+    margin: 0px;
+
 }
 
 header {
-  background-color: #ffffff;
-  background-image: url("./img/japan-bk.jpg");
-  background-position: center;
-  background-size: cover;
-  font-family: Helvetica;
-  text-align: center;
-  height: 500px;
-  margin: 0px;
+    background-color: #ffffff;
+    background-image: url("./img/japan-bk.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Futura;
+    text-align: center;
+    height: 500px;
+    margin: 0px;
 }
+section {
+    background-color: #ffffff;
+    font-family: Futura;
+    text-align: left;
+    height: 500px;
+    margin: 15px;    
+}
+
+.element {
+    font-family: Futura;
+    
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    display: inline-block;
+    width: auto;
+    
+
+}
+
