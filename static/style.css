@@ -2,6 +2,6 @@ header {
   background-color: #ffffff;
   background-image: url("./img/japan-bk.jpg");
   background-position: center;
-  background-size: 500px;
+  background-size: cover;
   font-family: Helvetica;
 }
