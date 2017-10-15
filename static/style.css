@@ -4,4 +4,6 @@ header {
   background-position: center;
   background-size: cover;
   font-family: Helvetica;
+  text-align: center;
+  height: 500px;
 }
