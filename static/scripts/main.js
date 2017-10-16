@@ -1,5 +1,5 @@
 var options = {
-  strings: ["<h3>Arts Psychology.</h3>", "<h3>Web Developer.</h3>", "<h3>I love machine learning.</h3>", "<h3>Arduino Enthusiast.</h3>", "<h3>Geopolitics Nerd.</h3>"],
+  strings: ["<h3>Arts Psychology.</h3>", "<h3>Web Developer.</h3>", "<h3>Loves machine learning.</h3>", "<h3>Arduino Enthusiast.</h3>", "<h3>Geopolitics Nerd.</h3>"],
   typeSpeed: 40,
   backSpeed: 40,
   loop: true,
