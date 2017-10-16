@@ -26,9 +26,14 @@ h3 {
     background-repeat: no-repeat;
     font-family: Colfax Thin;
     text-align: center;
-    height: 500px;
+    height: 550px;
     margin: 0px;
 }
+
+.head-secondary {
+    height: 100px;
+}
+
 section {
     font-family: Futura;
     text-align: center;
@@ -36,6 +41,14 @@ section {
     margin-left: 50px; 
     margin-right: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.section-secondary {
+    height: auto;
+    text-align: left;
+    padding-top: 5px;
+
 }
 
 .top {
@@ -43,6 +56,12 @@ section {
     color: #606c76;
     height: 150px;
     font-weight: 100;
+}
+
+.top-secondary {
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .element {
@@ -59,6 +78,33 @@ section {
     display: inline-block;
     width: auto;
 
+}
+
+.container-secondary {
+    top: 25px;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+    width: auto;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: lightgray;
+    font-family: Futura;
+    color: black;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #f4f5f6;
+    
 }
 
 .card {
@@ -119,13 +165,30 @@ section {
     background-size: cover;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 725px) {
     .col {-webkit-columns: 1; /* Chrome, Safari, Opera */
     -moz-columns: 1; /* Firefox */
     columns: 1;
-    -webkit-column-width: 250px; /* Chrome, Safari, Opera */
-    -moz-column-width: 250px; /* Firefox */
-    column-width: 250px;
+    -webkit-column-width: 320px; /* Chrome, Safari, Opera */
+    -moz-column-width: 320px; /* Firefox */
+    column-width: 320px;
+    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+
+}
+    section {
+        height: auto;
+    }
+}
+
+@media (max-width: 1260px) {
+    .col {-webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+    -webkit-column-width: 320px; /* Chrome, Safari, Opera */
+    -moz-column-width: 320px; /* Firefox */
+    column-width: 320px;
     -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
     -moz-column-gap: 100px; /* Firefox */
     column-gap: 100px;
@@ -140,9 +203,9 @@ section {
     -webkit-columns: 3; /* Chrome, Safari, Opera */
     -moz-columns: 3; /* Firefox */
     columns: 3;
-    -webkit-column-width: 250px; /* Chrome, Safari, Opera */
-    -moz-column-width: 250px; /* Firefox */
-    column-width: 250px;
+    -webkit-column-width: 320px; /* Chrome, Safari, Opera */
+    -moz-column-width: 320px; /* Firefox */
+    column-width: 320px;
     -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
     -moz-column-gap: 100px; /* Firefox */
     column-gap: 100px;
@@ -150,20 +213,66 @@ section {
 }
 
 
-    hr { 
-    color: #f4f5f6;
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-style: inset;
-    border-width: 1px;
+
+
+hr { 
+color: #f4f5f6;
+display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: 50px;
+margin-right: 50px;
+border-style: inset;
+border-width: 1px;
 } 
+
 
 .typed-cursor {
   font-weight: bold;
   line-height: 0px;
   font-size: 32px; 
 }
+
+div.gallery {
+    display: block;
+    margin: auto;
+    width: 100%;
+    transition: 0.5s;
+    padding-left: 50%;
+    padding-right: 50%;
+    
+}
+
+div.gallery:hover {
+    width: 110%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        padding: 0 0px;
+        width: 100%;
+    }
+    div.gallery {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
 
