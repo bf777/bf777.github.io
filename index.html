@@ -8,8 +8,10 @@
        charset ="utf-8"/>
       <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="static/colfax/fontstyle.css">
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
       <script src="lib/lib/typed.js"></script>
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   </head>
 <body>
     <header class="head-main">
@@ -28,28 +30,35 @@
     <a class="button" href="photography.html">Photography</a>       
     </nav>
     <section class="top">
-    <h2>Hi there!</h2>
+        <div data-aos="fade-up">
+    <h3>Hi there!</h3>
         <p>I like to dabble in a lot of things: psychology, neuroscience, machine learning, geopolitics, web design, and other stuff. Learn more about me and check out some of my latest projects below!</p>
           <hr>
+        </div>
     </section>
           
     <section class="col">
+        
+         <div data-aos="fade-down" data-aos-delay=500 data-aos-duration=600>
     <div class="card">
         <i class="fa fa-github fa-3x" aria-hidden="true"></i>
         <div class="card-padding">
         <div class="github-card" data-github="bf777" data-width="280" data-height="300" data-theme="medium"></div>
         </div> 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-   
-    </div>  
-
+             </div>
+    </div>
+        <div data-aos="fade-down" data-aos-delay=500 data-aos-duration=600>
     <div class="card">
         <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
         <div class="card-padding">
         <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="brandonf100"><a class="LI-simple-link" href='https://ca.linkedin.com/in/brandonf100?trk=profile-badge'>Brandon Forys</a></div>
         </div>
+        </div>
     </div> 
 
+
+         <div data-aos="fade-down" data-aos-delay=500 data-aos-duration=600>
          <div class="card">
         <h2>Organizations I work with</h2>
 
@@ -57,7 +66,10 @@
              <a href="https://ubcturingclub.squarespace.com/"><div class="card-link-block turing-block"></div></a>
              <a href="https://ubcmunsa.ca/"><div class="card-link-block munsa-block"></div></a>
              <a href="http://www.forysadvisory.com/"><div class="card-link-block fadvisory-block"></div></a>
+             </div>
+        </div>
     </section>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="static/scripts/main.js"></script>
 </body>
 </html>

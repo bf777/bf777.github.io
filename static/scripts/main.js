@@ -29,3 +29,7 @@ var els, i, len, title;
     }
   };
   document.addEventListener('keyup', checkKonami);
+
+
+AOS.init();
+
