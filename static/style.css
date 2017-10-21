@@ -52,7 +52,23 @@ section {
     height: auto;
     text-align: left;
     padding-top: 5px;
+}
 
+.section-highlight {
+    height: 600px;
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    background-color: #f4f5f6;
+}
+
+.icons {
+    height: 6em;
+    letter-spacing: 1em;
+    padding: 15px;
+    text-align: center;
 }
 
 .top {
