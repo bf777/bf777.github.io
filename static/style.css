@@ -30,7 +30,7 @@ p {
     background-repeat: no-repeat;
     font-family: Colfax Regular;
     text-align: center;
-    height: 550px;
+    height: 1000px;
     margin: 0px;
 }
 
@@ -95,7 +95,7 @@ section {
 
 .container {
     position: relative;
-    top: 200px;
+    top: 350px;
     display: inline-block;
     width: auto;
 
