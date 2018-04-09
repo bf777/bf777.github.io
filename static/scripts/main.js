@@ -33,3 +33,9 @@ var els, i, len, title;
 
 AOS.init();
 
+var elem = document.querySelector('.tooltipped');
+var instance = M.Tooltip.init(elem, options);
+
+var elem = document.querySelector('.carousel');
+var instance = M.Carousel.init(elem, options);
+
