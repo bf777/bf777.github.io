@@ -38,4 +38,4 @@ div.gallery img{width:100%;height:auto;}
 and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.responsive{padding:0 0px;width:100%;}
 div.gallery{padding-left:0px;padding-right:0px;}
 }
-.clearfix:after{content:"";display:table;clear:both;
+.clearfix:after{content:"";display:table;clear:both;}
