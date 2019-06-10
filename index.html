@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -8,14 +8,12 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-118595832-1');
         </script>
     <title>Brandon Forys</title>
       <link rel = "stylesheet"
        type = "text/css"
-       href = "css/style.css"
-       charset ="utf-8"/>
+       href = "css/style.css"/>
        <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -24,24 +22,24 @@
       <link rel="stylesheet" href="static/colfax/fontstyle.css">
       <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
       <link rel="stylesheet" href="static/font-mfizz-2.4.1/font-mfizz.css">
-      <script src="lib/lib/typed.js"></script>
-      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <!-- Compiled and minified JavaScript -->
+<!--      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>-->
+      <script src="node_modules/aos/dist/aos.js"></script>
   </head>
     <body>
     <header class="head-main">
         <div id="name">
-            <h1>Brandon Forys</h1>
+            <h2>Brandon Forys</h2>
             <div id="typed-strings">
                 <span class="element" style="height: 4rem"></span>
             </div>
         </div>
     </header>
     <nav>
-        <div class="nav-wrapper">
-            <ul id="nav-mobile">
+        <div class="nav-wrapper blue-grey darken-1">
+            <ul id="nav-mobile" class="left">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="photography.html">Photography</a></li>
+<!--                <li><a href="photography.html">Photography</a></li>-->
                 <li><a href="static/BrandonForysResume.pdf">Resume</a></li>
                 <li><a href="mailto:bforys@gmail.com"><i class="far fa-envelope" aria-hidden="true">
                 </i></a></li>
@@ -55,10 +53,9 @@
         </div>
     </section>
 
-    <div class="row" style="padding-top: 2rem;">
-        <div class="col hide-on-small-only">
-            <div class="card-panel tooltipped hoverable white-text blue darken-3" data-position="bottom"
-                 data-tooltip="I am a tooltip">
+    <div class="row">
+        <div class="col hide-on-small-only" style="padding-top: 3em">
+            <div class="card-panel hoverable white-text blue darken-3" data-position="bottom">
                 <a href="https://www.linkedin.com/in/brandonf100/"><i class="fab fa-linkedin-in fa-3x"
                                                                       style="color: white; text-decoration: none"></i></a>
             </div>
@@ -105,14 +102,14 @@
                 </a>
             </div>
         </div>
-        <div class="col s12 m6" style="padding-left: 2rem;">
+        <div class="col s12 m6" style="padding-left: 2rem; padding-bottom: 2em">
             <div class="row m12">
                 <h4>Current projects</h4>
                 <span class="flow-text grey-text">Here's what I've been working on lately:</span>
             </div>
             <div class="row">
                 <div class="col s12 m6">
-                <div class="card hoverable green lighten-2 white-text" style="margin-top: 0rem;">
+                <div class="card hoverable green lighten-2 white-text" style="margin-top: 0;">
                     <div class="card-content">
                         <span class="card-title">Hykr</span>
                         <p>A social network app connecting hikers to great trails. Built for nwHacks 2018.</p>
@@ -124,7 +121,7 @@
                 </div>
                 </div>
                 <div class="col s12 m6">
-                    <div class="card hoverable teal lighten-2 white-text" style="margin-top: 0rem;">
+                    <div class="card hoverable teal lighten-2 white-text" style="margin-top: 0;">
                         <div class="card-content">
                             <span class="card-title">Swapsy</span>
                             <p>A smart, cashless and accountable textbook exchange platform. Built for
@@ -139,7 +136,7 @@
             </div>
             <div class="row">
                 <div class="col s12 m6">
-                <div class="card hoverable orange lighten-2 white-text" style="margin-top: 0rem;">
+                <div class="card hoverable orange lighten-2 white-text" style="margin-top: 0;">
                     <div class="card-content">
                         <span class="card-title">DeepCutRealTime</span>
                         <p>I've adapted a leading pose-tracking system to work in real time and integrate with GPIO
@@ -151,7 +148,7 @@
                 </div>
                 </div>
                 <div class="col s12 m6">
-                <div class="card hoverable blue lighten-2 white-text" style="margin-top: 0rem;">
+                <div class="card hoverable blue lighten-2 white-text" style="margin-top: 0;">
                     <div class="card-content">
                         <span class="card-title">Dispatch</span>
                         <p>I'm helping to build an open source publishing platform for modern newspapers.</p>
@@ -164,13 +161,13 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="padding-top: 2rem">
+        <div class="container">
             <div class="section">
                 <h1 style="line-height: 3rem">Web Development</h1>
-                <p style="font-size: 20px">I'm a volunteer web developer for <a href="https://code.ubyssey.ca/"><em>The
-                    Ubyssey</em></a>, the most read student-run newspaper in Canada. My position involves going through
-                    the ubyssey.ca git repository, fixing issues and implementing new features on the website. I also
-                    make improvements to <a href="https://github.com/ubyssey/dispatch">Dispatch</a>, an open source
+                <p style="font-size: 20px">As a volunteer web developer for <a href="https://code.ubyssey.ca/"><em>The
+                    Ubyssey</em></a>, the most read student-run newspaper in Canada, I implemented
+                    new features on the website and fixed issues on the ubyssey.ca website. I also
+                    contributed to <a href="https://github.com/ubyssey/dispatch">Dispatch</a>, an open source
                     publishing platform developed by the Ubyssey. On the side, I develop websites for organizations like
                     the Turing Club. </p>
                 <div data-aos="fade-up" data-aos-delay=500 data-aos-duration=600>
@@ -233,11 +230,23 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="col s12 m6">
+                            <a href="https://sustain.ubc.ca/sites/default/files/seedslibrary/PSYC_321_AffectAndClimateChange_349B-Line_FinalReport.pdf">
+                                <div class="card-panel hoverable">
+                                    <div class="card-padding">
+                                        <p style="font-size: 20px"><b>Affective influence of injunctive messaging on donation behaviour</b>
+                                        <p>
+                                        <p style="font-size: 20px">An Environmental Psychology paper written to inform future
+                                        strategies for encouraging pro-environmental behaviour at UBC and beyond.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="section">
-                <div class="card-content">
+            <div class="section" >
+                <div class="card-content" style="padding-bottom: 10em">
                     <h1 style="height: auto">Teaching</h1>
                     <p style="font-size: 20px">Through teaching others about topics that interest me, I learn a lot
                         about a variety of topics: what fascinates people and what drives them,
@@ -246,49 +255,56 @@
                         use AI to aid their lives or revolutionize their field.
                 </div>
             </div>
-            <div class="section">
-                <div class="card-content">
-                    <h1 style="height: auto">Design</h1>
-                    <p style="font-size: 20px">When designing a new marketing campaign or a product, I always focus on
-                        making it practical yet elegant. I have experience with Photoshop, AutoCAD, 3DSMax, Blender, and
-                        Inventor.</p>
-                </div>
-                <div class="card-tabs">
-                    <ul class="tabs tabs-fixed-width">
-                        <li class="tab"><a class="active" href="#tab1">Posters</a></li>
-                        <li class="tab"><a href="#tab2">Websites</a></li>
-                        <li class="tab"><a href="#tab3">3D Models</a></li>
-                    </ul>
-                </div>
-                <div class="card-content">
-                    <div id="tab3">
-                        <div class="sketchfab-embed-wrapper card card-padding" style="width: 100%">
-                            <iframe width="100%" height="300"
-                                    src="https://sketchfab.com/models/5418fb0369484d5cac4d5c737279a6a0/embed"
-                                    frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"
-                                    webkitallowfullscreen="true" onmousewheel=""></iframe>
-                        </div>
-                    </div>
-                    <div id="tab1">
-                        <div style="display: flex; width: 100%">
-                            <div class="card card-padding card-poster">
-                                <img id="im" alt="Turing Club poster" src="static/img/TCa.jpg"/>
-                            </div>
-                            <div class="card card-padding card-poster">
-                                <img id="im" alt="Turing Club poster" src="static/img/TCb.jpg"/>
-                            </div>
-                            <div class="card card-padding card-poster">
-                                <img id="im" alt="PLAN 221 final project" src="static/img/dt_resize.png"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--            <div class="section">-->
+<!--                <div class="card-content">-->
+<!--                    <h1 style="height: auto">Design</h1>-->
+<!--                    <p style="font-size: 20px">When designing a new marketing campaign or a product, I always focus on-->
+<!--                        making it practical yet elegant. I have experience with Photoshop, AutoCAD, 3DSMax, Blender, and-->
+<!--                        Inventor.</p>-->
+<!--                </div>-->
+<!--                <div class="card-tabs">-->
+<!--                    <ul class="tabs">-->
+<!--                        <li class="tab"><a class="active" href="#tab1">Posters</a></li>-->
+<!--                        <li class="tab"><a href="#tab2">Websites</a></li>-->
+<!--                        <li class="tab"><a href="#tab3">3D Models</a></li>-->
+<!--                    </ul>-->
+<!--                <div class="card-content col s12">-->
+<!--                    <div id="tab1" class="col s12">-->
+<!--                        <div style="display: flex; width: 100%">-->
+<!--                            <div class="card card-padding card-poster">-->
+<!--                                <img id="im" alt="Turing Club poster" src="static/img/TCa.jpg"/>-->
+<!--                            </div>-->
+<!--                            <div class="card card-padding card-poster">-->
+<!--                                <img id="im" alt="Turing Club poster" src="static/img/TCb.jpg"/>-->
+<!--                            </div>-->
+<!--                            <div class="card card-padding card-poster">-->
+<!--                                <img id="im" alt="PLAN 221 final project" src="static/img/dt_resize.png"/>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div id="tab3" class="col s12">-->
+<!--                        <div class="sketchfab-embed-wrapper card card-padding" style="width: 100%">-->
+<!--                            <iframe width="100%" height="300"-->
+<!--                                    src="https://sketchfab.com/models/5418fb0369484d5cac4d5c737279a6a0/embed"-->
+<!--                                    frameborder="0" allowvr allowfullscreen mozallowfullscreen="true"-->
+<!--                                    webkitallowfullscreen="true" onmousewheel=""></iframe>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+        </div>
+    </div>
+    <footer class="page-footer blue-grey darken-1">
+        <div class="footer-copyright">
+            <div class="container">
+                (c) 2019 Brandon Forys
             </div>
         </div>
-        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-        <script src="static/scripts/main.js"></script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    </div>
+        <script type="module" src="static/scripts/main.js"></script>
+        <script src="lib/lib/typed.js"></script>
+    </footer>
     </body>
 </html>

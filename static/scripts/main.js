@@ -1,3 +1,7 @@
+// import M from "../../node_modules/materialize-css/dist/js/materialize.js";
+
+// M.AutoInit();
+
 var options = {
   strings: ["<h3>Arts Psychology.</h3>", "<h3>Web Developer.</h3>", "<h3>Loves machine learning.</h3>", "<h3>Arduino Enthusiast.</h3>", "<h3>Geopolitics Nerd.</h3>"],
   typeSpeed: 40,
@@ -7,7 +11,7 @@ var options = {
   showCursor: true,
   cursorChar: '|',
   autoInsertCss: true
-}
+};
 
 var typed = new Typed(".element", options);
 
@@ -30,12 +34,4 @@ var els, i, len, title;
   };
   document.addEventListener('keyup', checkKonami);
 
-
 AOS.init();
-
-var elem = document.querySelector('.tooltipped');
-var instance = M.Tooltip.init(elem, options);
-
-var elem = document.querySelector('.carousel');
-var instance = M.Carousel.init(elem, options);
-
