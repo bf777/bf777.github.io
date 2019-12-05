@@ -37,4 +37,16 @@ var els, i, len, title;
   };
   document.addEventListener('keyup', checkKonami);
 
+const url = 'https://api.altmetric.com/v1/doi/10.1101/482349';
+fetch(url)
+    .then((resp) => resp.json())
+    .then(function(data) {
+  let score = data.images.small;
+  console.log(score);
+  document.getElementById("altmetric").setAttribute("src", score);
+  return score
+}, function(error) {
+      console.log(error.message); //=> String
+});
+
 AOS.init();
