@@ -37,7 +37,8 @@ var els, i, len, title;
   };
   document.addEventListener('keyup', checkKonami);
 
-const url = 'https://api.altmetric.com/v1/doi/10.1101/482349';
+// const url = 'https://api.altmetric.com/v1/doi/10.1101/482349';
+const url = 'https://api.altmetric.com/v1/doi/10.1523/eneuro.0096-20.2020';
 fetch(url)
     .then((resp) => resp.json())
     .then(function(data) {
@@ -48,5 +49,6 @@ fetch(url)
 }, function(error) {
       console.log(error.message); //=> String
 });
+
 
 AOS.init();
