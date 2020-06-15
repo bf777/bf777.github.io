@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "materialize-css": "^1.0.0",
     "mdbootstrap": "^4.19.0",
     "whatwg-fetch": "^3.0.0"
   },
