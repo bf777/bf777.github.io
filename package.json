@@ -1,0 +1,32 @@
+{
+  "name": "bf777.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "materialize-css": "^1.0.0",
+    "mdbootstrap": "^4.19.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bf777/bf777.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Brandon Forys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bf777/bf777.github.io/issues"
+  },
+  "homepage": "https://github.com/bf777/bf777.github.io#readme"
+}
