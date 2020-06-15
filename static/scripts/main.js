@@ -5,10 +5,10 @@
 // M.AutoInit();
 
 var options = {
-  strings: ["<h3>Arts Psychology.</h3>", "<h3>Web Developer.</h3>", "<h3>Loves machine learning.</h3>",
-    "<h3>Arduino Enthusiast.</h3>", "<h3>Geopolitics Nerd.</h3>"],
-  typeSpeed: 40,
-  backSpeed: 40,
+  strings: ['<h3>UBC BA Honours Psychology.</h3>', '<h3>Web developer.</h3>', '<h3>Loves machine learning.</h3>',
+    '<h3>Passionate about cognitive science.</h3>'],
+  typeSpeed: 60,
+  backSpeed: 60,
   loop: true,
   loopCount: Infinity,
   showCursor: true,
