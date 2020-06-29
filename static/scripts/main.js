@@ -43,7 +43,6 @@ fetch(url)
     .then((resp) => resp.json())
     .then(function(data) {
   let score = data.images.small;
-  console.log(score);
   document.getElementById("altmetric").setAttribute("src", score);
   return score
 }, function(error) {
