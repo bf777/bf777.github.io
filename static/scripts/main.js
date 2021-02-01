@@ -49,5 +49,16 @@ fetch(url)
       console.log(error.message); //=> String
 });
 
+const dev_neuro_url = 'https://api.altmetric.com/v1/doi/10.1002/dneu.22808';
+fetch(dev_neuro_url)
+    .then((resp) => resp.json())
+    .then(function(data) {
+      let score = data.images.small;
+      document.getElementById("altmetric_dev_neuro").setAttribute("src", score);
+      return score
+    }, function(error) {
+      console.log(error.message); //=> String
+    });
+
 
 AOS.init();
