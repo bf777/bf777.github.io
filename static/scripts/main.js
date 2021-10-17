@@ -60,5 +60,16 @@ fetch(dev_neuro_url)
       console.log(error.message); //=> String
     });
 
+const nat_comms_url = 'https://api.altmetric.com/v1/doi/10.1038/s41467-021-26255-2';
+fetch(nat_comms_url)
+    .then((resp) => resp.json())
+    .then(function(data) {
+      let score = data.images.small;
+      document.getElementById("altmetric_nat_comms").setAttribute("src", score);
+      return score
+    }, function(error) {
+      console.log(error.message); //=> String
+    });
+
 
 AOS.init();
