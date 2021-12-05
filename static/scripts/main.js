@@ -37,39 +37,24 @@ var els, i, len, title;
   };
   document.addEventListener('keyup', checkKonami);
 
-// const url = 'https://api.altmetric.com/v1/doi/10.1101/482349';
-const url = 'https://api.altmetric.com/v1/doi/10.1523/eneuro.0096-20.2020';
-fetch(url)
-    .then((resp) => resp.json())
-    .then(function(data) {
-  let score = data.images.small;
-  document.getElementById("altmetric").setAttribute("src", score);
-  return score
-}, function(error) {
-      console.log(error.message); //=> String
-});
+const altmetric_urls = ['https://api.altmetric.com/v1/doi/10.1101/2021.11.25.469891',
+    'https://api.altmetric.com/v1/doi/10.1038/s41467-021-26255-2',
+    'https://api.altmetric.com/v1/doi/10.1530/JOE-21-0154',
+    'https://api.altmetric.com/v1/doi/10.1002/dneu.22808',
+    'https://api.altmetric.com/v1/doi/10.1523/eneuro.0096-20.2020',
+    'https://api.altmetric.com/v1/doi/10.1101/482349']
 
-const dev_neuro_url = 'https://api.altmetric.com/v1/doi/10.1002/dneu.22808';
-fetch(dev_neuro_url)
-    .then((resp) => resp.json())
-    .then(function(data) {
-      let score = data.images.small;
-      document.getElementById("altmetric_dev_neuro").setAttribute("src", score);
-      return score
-    }, function(error) {
-      console.log(error.message); //=> String
-    });
-
-const nat_comms_url = 'https://api.altmetric.com/v1/doi/10.1038/s41467-021-26255-2';
-fetch(nat_comms_url)
-    .then((resp) => resp.json())
-    .then(function(data) {
-      let score = data.images.small;
-      document.getElementById("altmetric_nat_comms").setAttribute("src", score);
-      return score
-    }, function(error) {
-      console.log(error.message); //=> String
-    });
-
+for(let i = 0; i < altmetric_urls.length; i++) {
+    var url = altmetric_urls[i];
+    fetch(url)
+        .then((resp) => resp.json())
+        .then(function(data) {
+            let score = data.images.large;
+            document.getElementById("altmetric_" + i).setAttribute("src", score);
+            return score
+        }, function(error) {
+            console.log(error.message); //=> String
+        });
+}
 
 AOS.init();
