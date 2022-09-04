@@ -5,7 +5,7 @@
 // M.AutoInit();
 
 var options = {
-  strings: ['<h3>UBC MA Psychology student.</h3>','<h3>Passionate about cognitive science.</h3>','<h3>Investigates effort for avoidance and reward.</h3>'],
+  strings: ['<h3>UBC PhD Psychology student.</h3>','<h3>Passionate about cognitive science.</h3>','<h3>Investigates effort for avoidance and reward.</h3>'],
   typeSpeed: 60,
   backSpeed: 60,
   loop: true,
