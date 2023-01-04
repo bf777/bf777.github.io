@@ -36,7 +36,9 @@ var els, i, len, title;
   };
   document.addEventListener('keyup', checkKonami);
 
-const altmetric_urls = ['https://api.altmetric.com/v1/doi/10.1101/2021.11.25.469891',
+const altmetric_urls = [
+    'https://api.altmetric.com/v1/doi/10.1101/2022.06.21.497075',
+    'https://api.altmetric.com/v1/doi/10.1101/2021.11.25.469891',
     'https://api.altmetric.com/v1/doi/10.1038/s41467-021-26255-2',
     'https://api.altmetric.com/v1/doi/10.1530/JOE-21-0154',
     'https://api.altmetric.com/v1/doi/10.1002/dneu.22808',
