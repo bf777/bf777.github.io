@@ -1,13 +1,7 @@
-// import M from "../../node_modules/materialize-css/dist/js/materialize.js";
-
-// import * as AOS from "aos";
-
-// M.AutoInit();
-
 var options = {
   strings: ['<h3>UBC PhD Psychology student.</h3>','<h3>Passionate about cognitive science.</h3>','<h3>Investigates effort for avoidance and reward.</h3>'],
-  typeSpeed: 60,
-  backSpeed: 60,
+  typeSpeed: 40,
+  backSpeed: 20,
   loop: true,
   loopCount: Infinity,
   showCursor: true,
@@ -37,6 +31,7 @@ var els, i, len, title;
   document.addEventListener('keyup', checkKonami);
 
 const altmetric_urls = [
+    'https://api.altmetric.com/v1/doi/10.3758/s13415-023-01115-2',
     'https://api.altmetric.com/v1/doi/10.1523/ENEURO.0239-22.2023',
     'https://api.altmetric.com/v1/doi/10.1101/2021.11.25.469891',
     'https://api.altmetric.com/v1/doi/10.1038/s41467-021-26255-2',
