@@ -1,7 +1,7 @@
 h1{font-weight:bold;line-height:0px;font-size:50px;}
 h3{font-weight:bold;line-height:0px;font-size:32px;}
 .sticky{position: -webkit-sticky;position: sticky;top: 0;}
-.head-main{color:#f4f5f6;background-color:#ffffff;background-image:url("../static/img/japan-bk-min.jpg");
+.head-main{color:#f4f5f6;background-color:#ffffff;background-image:url("../static/img/japan-bk-min.webp");
     background-attachment:fixed;background-position:center;background-size:cover;background-repeat:no-repeat;
     text-align:center;height: 300px;margin-top: -60px;font-family:Roboto}
 #name{position:relative; top: 150px;}
@@ -24,11 +24,11 @@ nav{display:block;text-align:center;background-color:lightgray;width:auto;}
 .card-link-block{height:90px;background-color:#ffffff;box-shadow:0 0 5px 0 rgba(0,0,0,0.2);transition:0.5s;opacity:0.4;}
 .card-link-block:hover{height:100px;opacity:1;}
 .card-poster{margin-left:5px;margin-right:5px;}
-.ubyssey-block{background-image:url(../static/img/ubyssey.jpeg);background-position:center;background-size:cover;}
-.turing-block{background-image:url(../static/img/download.png);background-position:center;background-size:cover;}
-.munsa-block{background-image:url(../static/img/modelunweb1.png);background-position:center;background-size:cover;}
-.rloop-block{background-image:url(../static/img/rloop.png);background-position:center;background-size:cover;}
-.psichi-block{background-image:url(../static/img/psichi.png);background-position:center;background-size:cover;}
+.ubyssey-block{background-image:url(../static/img/ubyssey.webp);background-position:center;background-size:cover;}
+.turing-block{background-image:url(../static/img/download.webp);background-position:center;background-size:cover;}
+.munsa-block{background-image:url(../static/img/modelunweb1.webp);background-position:center;background-size:cover;}
+.rloop-block{background-image:url(../static/img/rloop.webp);background-position:center;background-size:cover;}
+.psichi-block{background-image:url(../static/img/psichi.webp);background-position:center;background-size:cover;}
 .tooltip{position:relative;display:inline-block;border-bottom:1px dotted black;}
 .tooltip .tooltiptext{visibility:hidden;width:120px;background-color:#555;color:#fff;text-align:center;border-radius:6px;
     padding:5px 0;position:absolute;z-index:1;bottom:125%;left:50%;margin-left:-60px;opacity:0;transition:opacity 1s;}
