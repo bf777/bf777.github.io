@@ -24,19 +24,14 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-              integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-              crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-              integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-              crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-              integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-              crossorigin="anonymous"></script>
       <!-- Bootstrap core CSS -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      </script>
       <!-- Material Design Bootstrap -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+<!--      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/5.3.2/css/mdb.min.css" rel="stylesheet">-->
   </head>
   <body>
   <!-- Google Tag Manager (noscript) -->
@@ -44,41 +39,70 @@
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <section class="sticky-top bg-white">
-      <div class="row mx-5" style="height: 2em">
-      </div>
-          <div class="row mx-5">
-              <div class="col-xs-3 mr-3">
-                  <img src="static/img/portrait_for_website_2.webp" alt="">
-              </div>
-              <div class="col-xs-9">
-                  <h1>Brandon Forys</h1>
-              </div>
-          </div>
-          <div class="row mt-3">
-              <div class="col-xs-3" style="width:7.5em">
-              </div>
-              <div class="col-xs-9">
-                  <nav class="navbar-expand-sm ml-5">
-                      <div class="navbar-nav">
-                          <a class="navbar-items-font nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                          <a class="navbar-items-font nav-item nav-link" href="static/BrandonForysResume.pdf">Resume</a>
-                          <a class="navbar-items-font nav-item nav-link" href="mailto:brandon.forys@psych.ubc.ca">Email</a>
-                          <a class="navbar-items-font nav-item nav-link fa-brands fa-github ml-3" href="https://github.com/bf777"></a>
-                          <a class="navbar-items-font nav-item nav-link ai ai-orcid" href="https://orcid.org/0000-0003-0316-3027"></a>
-                          <a class="navbar-items-font nav-item nav-link ai ai-google-scholar" href="https://scholar.google.com/citations?user=ut_JpGYAAAAJ&hl=en"></a>
-                          <a class="navbar-items-font nav-item nav-link ai ai-researchgate" href="https://www.researchgate.net/profile/Brandon-Forys"></a>
-                          <a class="navbar-items-font nav-item nav-link fa-brands fa-linkedin" href="https://www.linkedin.com/in/brandonf100"></a>
-                          <a class="navbar-items-font nav-item nav-link fa-brands fa-mastodon" href="https://fediscience.org/@bforys"></a>
-                          <a class="navbar-items-font nav-item nav-link fa-brands fa-x-twitter" href="https://twitter.com/BrandonForys"></a>
-                      </div>
-                  </nav>
-              </div>
-          </div>
-      <hr class="hr" />
-  </section>
-  <section class="mt-4">
       <div class="mx-5">
-      <div class="row my-3 mx-5">
+      <div class="row" style="height: 2em">
+      </div>
+      <div class="row">
+          <div class="col col-sm-1">
+          <div class="mx-1">
+              <img src="static/img/portrait_for_website_2.webp" alt="">
+          </div>
+          </div>
+          <div class="col col-sm-5">
+          <div class="mx-1">
+            <h1>Brandon Forys</h1>
+          </div>
+          </div>
+      </div>
+      <div class="row mt-3">
+          <div>
+              <nav class="navbar navbar-expand-lg ">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="nav navbar-nav">
+                          <li class="nav-item active">
+                          <a class="navbar-items-font nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link" href="static/BrandonForysResume.pdf">Resume</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link" href="mailto:brandon.forys@psych.ubc.ca">Email</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link fa-brands fa-github ml-3" href="https://github.com/bf777"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link ai ai-orcid" href="https://orcid.org/0000-0003-0316-3027"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link ai ai-google-scholar" href="https://scholar.google.com/citations?user=ut_JpGYAAAAJ&hl=en"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link ai ai-researchgate" href="https://www.researchgate.net/profile/Brandon-Forys"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link fa-brands fa-linkedin" href="https://www.linkedin.com/in/brandonf100"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link fa-brands fa-mastodon" href="https://fediscience.org/@bforys"></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-items-font nav-link fa-brands fa-x-twitter" href="https://twitter.com/BrandonForys"></a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+          </div>
+      </div>
+      <hr class="mx-5"/>
+  </section>
+  <section>
+      <div class="mx-5">
+      <div class="row my-3">
           <div class="col-xs-12">
               <p>Hi there! I'm a PhD student in the <a href="https://mclab.psych.ubc.ca/people/brandon-forys/">Motivated Cognition Lab</a> and <a href="https://barlab.psych.ubc.ca/brandon-forys/">Brain, Attention,
                   and Reality Lab</a> at the University of British Columbia (<a href="https://psych.ubc.ca/profile/brandon-forys/">department profile</a>), working with Dr. Rebecca Todd and Dr. Alan Kingstone.
@@ -100,7 +124,7 @@
                   I've also worked extensively with fMRI preprocessing and analysis software, including fMRIprep, AFNI, FSL, tedana, CONN, and fMRI-CPCA, and I help organize and co-teach an annual, week-long fMRI brain imaging workshop at UBC.</p>
           </div>
       </div>
-      <div class="row my-3 mx-5">
+      <div class="row my-3">
           <div class="col-xs-12">
               <h2>Publications</h2>
               <ul>
@@ -111,8 +135,7 @@
                       <b class="font-weight-bold">Forys, B. J.</b>, Tomm, R. J., Stamboliyska, D., Terpstra, A. R., Clark, L., Chakrabarty, T., Floresco, S. B., & Todd, R. M. (2023). Gender impacts the relationship between mood disorder symptoms and effortful avoidance performance. <i>eNeuro</i>, 10(2). <a href="https://doi.org/10.1523/ENEURO.0239-22.2023">https://doi.org/10.1523/ENEURO.0239-22.2023</a>
                   </p>
                   <p>
-                      Ehlers, M. R., Kryklywy, J. H., Beukers, A. O., Moore, S. R., Forys, B. J., Anderson, A. K., & Todd, R. M. (2021).
-                      Reactivation of hedonic but not sensory representations in human emotional learning. BioRxiv. https://doi.org/10.1101/2021.11.25.469891
+                      Ehlers, M. R., Kryklywy, J. H., Beukers, A. O., Moore, S. R., Forys, B. J., Anderson, A. K., & Todd, R. M. (2021). Reactivation of hedonic but not sensory representations in human emotional learning. <i>BioRxiv</i>. <a href="https://doi.org/10.1101/2021.11.25.469891">https://doi.org/10.1101/2021.11.25.469891</a>
                   </p>
                   <p>
                       Xiao, D., <b class="font-weight-bold">Forys, B. J.</b>, Vanni, M. P., & Murphy, T. H. (2021). MesoNet: automated scaling and segmentation of mouse mesoscale cortical maps using machine learning. <i>Nature Communications</i>, 12(1), 5992. <a href="https://doi.org/10.1038/s41467-021-26255-2">https://doi.org/10.1038/s41467-021-26255-2</a>
@@ -129,7 +152,7 @@
               </ul>
           </div>
       </div>
-          <div class="row my-3 mx-5">
+          <div class="row my-3">
               <div class="col-xs-12">
                   <h2>Poster presentations</h2>
                   <ul>
@@ -186,7 +209,7 @@
               </div>
           </div>
       </div>
-      <hr class="hr" />
+      <hr class="mx-5"/>
       <div class="row my-3 mx-5">
           <div class="col-xs-12">
               <p>Hosted on GitHub Pages using Bootstrap, with Didot font.</p>

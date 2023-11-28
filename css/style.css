@@ -1,26 +1,18 @@
 h1{font-weight:bold;font-size:70px !important;font-family:Didot,serif;}
 h2{font-weight:bold;font-size:30px !important;font-family:Didot,serif;}
 h3{font-weight:bold;font-size:25px !important;font-family:Didot,serif;}
-img {width: 90px;height: auto;object-fit: cover;border-radius: 50%;
-}
+img {width: 100px;height: auto;object-fit: cover;border-radius: 50%;}
 p{line-height:25px;font-size:18px;font-family:Didot,serif;}
 li{line-height:30px;font-size:18px;font-family:Didot,serif;}
 a{line-height:30px;font-size:18px;text-decoration: underline;font-family:Didot,serif;}
 body {
     overflow-x: hidden !important;
 }
-.container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
 .navbar-items-font{font-size:25px !important;}
-hr{color:#f4f5f6;display:block;margin-top:0.5em;margin-bottom:0.5em;margin-left:50px;margin-right:50px;
-    border-style:inset;border-width:1px;}
-.responsive{padding:0 6px;float:left;width:50%;}
-@media only screen and (min-device-width:375px)
-and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.responsive{padding:0;width:100%;}
-}
-.clearfix:after{content:"";display:table;clear:both;}
+
+/*hr{color:#f4f5f6;display:block;*/
+/*    margin: 0.5em 50px;*/
+/*    border-style:inset;border-width:1px;}*/
 
 @media (max-width: 420px) {
     body {
